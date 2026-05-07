@@ -4,11 +4,15 @@ A Python-based simulation project that demonstrates intelligent scheduling of El
 
 ## Overview
 
-This project simulates multiple EVs arriving at different times and compares different charging strategies:
+This project simulates multiple EVs arriving at different times and compares different charging strategies through an interactive Streamlit dashboard:
 
 - Uncontrolled Charging
 - Basic Controlled Charging
 - Smart Scheduling with Priority and Peak-Hour Logic
+- Interactive Streamlit dashboard
+- Dynamic EV dataset generation
+- Adjustable charging capacity
+- Adjustable peak-hour range
 
 The system helps demonstrate how smart charging can improve load distribution and reduce peak demand.
 
@@ -21,7 +25,7 @@ The system helps demonstrate how smart charging can improve load distribution an
 - Priority-based scheduling
 - Peak-hour load management
 - Comparative load analysis
-- Load vs. Time visualization
+- Load vs. Time graph visualization
 
 ---
 
@@ -49,9 +53,16 @@ The graph below compares all charging strategies.
 
 ---
 
+## Dashboard Preview
+
+![Dashboard Screenshot](dashboard_screenshot.png)
+
+---
+
 ## Technologies Used
 
 - Python
+- Streamlit
 - Matplotlib
 
 ---
@@ -61,7 +72,7 @@ The graph below compares all charging strategies.
 Run the main simulation file:
 
 ```bash
-python main.py
+streamlit run app.py
 ```
 
 ---
