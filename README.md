@@ -69,6 +69,12 @@ The graph below compares all charging strategies.
 
 ## How to Run
 
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
 Run the main simulation file:
 
 ```bash
